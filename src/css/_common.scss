@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    line-height: 160%;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.top_bar {
+    background: $primary;
+    border: 1px solid rgb(0,0,0,0);
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    h1 {
+        color:white;
+        a {
+            color: white;
+        }
+    }
+}
+.box {
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+
+}
