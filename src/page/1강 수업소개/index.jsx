@@ -26,7 +26,7 @@ class classOne extends React.Component {
             `}</pre>
           </div>
           <div className="box">
-            <h3> 웹에 대한 이야기 </h3>
+            <h3> 웹에 대한 이야기 / 컴포넌트 </h3>
             <pre>{`
 웹은 시간이 지날수록 굉장히 복잡해짐 
 간단한 툴바를 만들어도 div 지옥 ...

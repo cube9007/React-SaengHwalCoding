@@ -15,7 +15,10 @@ function home () {
               <Link to='/page/class_one/index' className="home-a"> 🔗 1강 수업소개 </Link> <ArrowForward className="box-arrow" />
             </li>
             <li>
-              <Link to="/page/layout/product/Sidemenu" className="home-a"> 🔗 SideMenu (=한국관광공사) </Link> <ArrowForward className="box-arrow" />
+              <Link to='/page/class_two/index' className="home-a"> 🔗 2강 공부 전략 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_three/index' className="home-a"> 🔗 3강 개발환경의 종류 </Link> <ArrowForward className="box-arrow" />
             </li>
           </ul>
         </Box>
