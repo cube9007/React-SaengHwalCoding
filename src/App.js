@@ -11,6 +11,9 @@ import ClassSix from "./page/06강 샘플 웹앱 실행/index";
 import ClassSeven from "./page/07강 JS 코딩하는 법/index";
 import ClassEight from "./page/08강 css코딩하는 법/index";
 import ClassNine from "./page/09강 배포하는 법/index";
+import ClassTen from "./page/10강 리액트가 없다면/index";
+import ClassEleven from "./page/11_1강 컴포넌트 만들기1/index";
+import ClassElevenTwo from "./page/11_2강 컴포넌트 만들기 2/index";
 
 import ClassCodeMirror from "./page/* 코드 미러 쓰는 법/index";
 
@@ -31,6 +34,9 @@ function App() {
           <Route path='/page/class_seven/index' element={<ClassSeven />} />
           <Route path='/page/class_eight/index' element={<ClassEight />} />
           <Route path='/page/class_nine/index' element={<ClassNine />} />
+          <Route path='/page/class_ten/index' element={<ClassTen />} />
+          <Route path='/page/class_eleven/index' element={<ClassEleven />} />
+          <Route path='/page/class_eleven_two/index' element={<ClassElevenTwo />} />
 
           <Route path='/page/class_codemirror/index' element={<ClassCodeMirror />} />
         </Routes>

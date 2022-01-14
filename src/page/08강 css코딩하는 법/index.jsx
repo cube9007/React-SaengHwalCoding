@@ -27,6 +27,7 @@ class class8 extends React.Component {
             `}</pre>
             <CodeMirror
             value={`import './App.scss'`}
+            theme='dark'
             extensions={[javascript({ jsx: true })]}
             onChange={(value, viewUpdate) => {
                 console.log('value:', value);

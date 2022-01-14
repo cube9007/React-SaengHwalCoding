@@ -38,7 +38,16 @@ function home () {
             <li>
               <Link to='/page/class_nine/index' className="home-a"> 🔗 09강 배포하는 법 </Link> <ArrowForward className="box-arrow" />
             </li>
-            
+            <li>
+              <Link to='/page/class_ten/index' className="home-a"> 🔗 10강 리액트가 없다면 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_eleven/index' className="home-a"> 🔗 11_1강 컴포넌트 만들기1 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_eleven_two/index' className="home-a"> 🔗 11_2강 컴포넌트 만들기 2 </Link> <ArrowForward className="box-arrow" />
+            </li>
+
           </ul>
         </Box>
         <Box className='home-box'>
