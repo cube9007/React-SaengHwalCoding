@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 import HOME from "./page/HOME";
@@ -19,30 +19,32 @@ import ClassCodeMirror from "./page/* 코드 미러 쓰는 법/index";
 
 import './css/App.scss';
 
-function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<HOME />} />
-          <Route path='/page/class_one/index' element={<ClassOne />} />
-          <Route path='/page/class_two/index' element={<ClassTwo />} />
-          <Route path='/page/class_three/index' element={<ClassThree />} />
-          <Route path='/page/class_four/index' element={<ClassFour />} />
-          <Route path='/page/class_five/index' element={<ClassFive />} />
-          <Route path='/page/class_six/index' element={<ClassSix />} />
-          <Route path='/page/class_seven/index' element={<ClassSeven />} />
-          <Route path='/page/class_eight/index' element={<ClassEight />} />
-          <Route path='/page/class_nine/index' element={<ClassNine />} />
-          <Route path='/page/class_ten/index' element={<ClassTen />} />
-          <Route path='/page/class_eleven/index' element={<ClassEleven />} />
-          <Route path='/page/class_eleven_two/index' element={<ClassElevenTwo />} />
+class App extends Component {
+  render() {
+    return (
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<HOME />} />
+            <Route path='/page/class_one/index' element={<ClassOne />} />
+            <Route path='/page/class_two/index' element={<ClassTwo />} />
+            <Route path='/page/class_three/index' element={<ClassThree />} />
+            <Route path='/page/class_four/index' element={<ClassFour />} />
+            <Route path='/page/class_five/index' element={<ClassFive />} />
+            <Route path='/page/class_six/index' element={<ClassSix />} />
+            <Route path='/page/class_seven/index' element={<ClassSeven />} />
+            <Route path='/page/class_eight/index' element={<ClassEight />} />
+            <Route path='/page/class_nine/index' element={<ClassNine />} />
+            <Route path='/page/class_ten/index' element={<ClassTen />} />
+            <Route path='/page/class_eleven/index' element={<ClassEleven />} />
+            <Route path='/page/class_eleven_two/index' element={<ClassElevenTwo />} />
 
-          <Route path='/page/class_codemirror/index' element={<ClassCodeMirror />} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+            <Route path='/page/class_codemirror/index' element={<ClassCodeMirror />} />
+          </Routes>
+        </BrowserRouter>
+      </>
+    );
+  }
 }
 
 export default App;

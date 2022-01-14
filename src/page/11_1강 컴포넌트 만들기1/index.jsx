@@ -28,7 +28,7 @@ class class10 extends React.Component {
           {/* 상단 메뉴 */}
           <div className="top_bar" >
               <h1>
-                  <Link to="/">11강 컴포넌트 만들기 </Link>
+                  <Link to="/">11_1강 컴포넌트 만들기1 </Link>
               </h1>
           </div>
           {/* 콘텐트 영역 */}
