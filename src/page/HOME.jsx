@@ -12,13 +12,28 @@ function home () {
           <h2> 📚 React! </h2>
           <ul>
             <li>
-              <Link to='/page/class_one/index' className="home-a"> 🔗 1강 수업소개 </Link> <ArrowForward className="box-arrow" />
+              <Link to='/page/class_one/index' className="home-a"> 🔗 01강 수업소개 </Link> <ArrowForward className="box-arrow" />
             </li>
             <li>
-              <Link to='/page/class_two/index' className="home-a"> 🔗 2강 공부 전략 </Link> <ArrowForward className="box-arrow" />
+              <Link to='/page/class_two/index' className="home-a"> 🔗 02강 공부 전략 </Link> <ArrowForward className="box-arrow" />
             </li>
             <li>
-              <Link to='/page/class_three/index' className="home-a"> 🔗 3강 개발환경의 종류 </Link> <ArrowForward className="box-arrow" />
+              <Link to='/page/class_three/index' className="home-a"> 🔗 03강 개발환경의 종류 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_four/index' className="home-a"> 🔗 04강 npm을 이용해서 create react app 설치 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_five/index' className="home-a"> 🔗 05강 create react app을 이용해서 개발환경구축 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_six/index' className="home-a"> 🔗 06강 샘플 웹앱 실행 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_seven/index' className="home-a"> 🔗 07강 JS 코딩하는 법 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            <li>
+              <Link to='/page/class_eight/index' className="home-a"> 🔗 08강 css코딩하는 법 </Link> <ArrowForward className="box-arrow" />
             </li>
           </ul>
         </Box>
