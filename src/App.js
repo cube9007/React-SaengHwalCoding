@@ -10,6 +10,9 @@ import ClassFive from "./page/05강 create react app을 이용해서 개발환�
 import ClassSix from "./page/06강 샘플 웹앱 실행/index";
 import ClassSeven from "./page/07강 JS 코딩하는 법/index";
 import ClassEight from "./page/08강 css코딩하는 법/index";
+import ClassNine from "./page/09강 배포하는 법/index";
+
+import ClassCodeMirror from "./page/* 코드 미러 쓰는 법/index";
 
 import './css/App.scss';
 
@@ -27,6 +30,9 @@ function App() {
           <Route path='/page/class_six/index' element={<ClassSix />} />
           <Route path='/page/class_seven/index' element={<ClassSeven />} />
           <Route path='/page/class_eight/index' element={<ClassEight />} />
+          <Route path='/page/class_nine/index' element={<ClassNine />} />
+
+          <Route path='/page/class_codemirror/index' element={<ClassCodeMirror />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -35,6 +35,18 @@ function home () {
             <li>
               <Link to='/page/class_eight/index' className="home-a"> 🔗 08강 css코딩하는 법 </Link> <ArrowForward className="box-arrow" />
             </li>
+            <li>
+              <Link to='/page/class_nine/index' className="home-a"> 🔗 09강 배포하는 법 </Link> <ArrowForward className="box-arrow" />
+            </li>
+            
+          </ul>
+        </Box>
+        <Box className='home-box'>
+          <h2> 🚩 번외 </h2>
+          <ul>
+            <li>
+              <Link to='/page/class_codemirror/index' className="home-a"> 🔗  코드 미러 쓰는 법 </Link> <ArrowForward className="box-arrow" />
+            </li>
           </ul>
         </Box>
       </>
