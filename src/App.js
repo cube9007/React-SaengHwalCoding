@@ -25,7 +25,7 @@ class App extends Component {
       <>
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<HOME />} />
+            <Route path='/ReactSaengHwalCoding' element={<HOME />} />
             <Route path='/page/class_one/index' element={<ClassOne />} />
             <Route path='/page/class_two/index' element={<ClassTwo />} />
             <Route path='/page/class_three/index' element={<ClassThree />} />
