@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React_SaengHwalCoding/static/css/main.afa4f88c.css",
-    "main.js": "/React_SaengHwalCoding/static/js/main.bfb9aeff.js",
-    "static/js/787.1513fb98.chunk.js": "/React_SaengHwalCoding/static/js/787.1513fb98.chunk.js",
-    "index.html": "/React_SaengHwalCoding/index.html",
-    "main.afa4f88c.css.map": "/React_SaengHwalCoding/static/css/main.afa4f88c.css.map",
-    "main.bfb9aeff.js.map": "/React_SaengHwalCoding/static/js/main.bfb9aeff.js.map",
-    "787.1513fb98.chunk.js.map": "/React_SaengHwalCoding/static/js/787.1513fb98.chunk.js.map"
+    "main.css": "/ReactSaengHwalCoding/static/css/main.afa4f88c.css",
+    "main.js": "/ReactSaengHwalCoding/static/js/main.76e48d82.js",
+    "static/js/787.1513fb98.chunk.js": "/ReactSaengHwalCoding/static/js/787.1513fb98.chunk.js",
+    "index.html": "/ReactSaengHwalCoding/index.html",
+    "main.afa4f88c.css.map": "/ReactSaengHwalCoding/static/css/main.afa4f88c.css.map",
+    "main.76e48d82.js.map": "/ReactSaengHwalCoding/static/js/main.76e48d82.js.map",
+    "787.1513fb98.chunk.js.map": "/ReactSaengHwalCoding/static/js/787.1513fb98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afa4f88c.css",
-    "static/js/main.bfb9aeff.js"
+    "static/js/main.76e48d82.js"
   ]
 }
